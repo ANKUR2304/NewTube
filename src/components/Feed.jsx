@@ -13,7 +13,7 @@ const Feed = () => {
 
     fetchFromAPI(
       `search?part=snippet&q=${
-        selectedCategory === "Home" ? "" : selectedCategory
+        selectedCategory === "Home" ? "Latest" : selectedCategory
       }`
     ).then((data) => setVideos(data.items));
   }, [selectedCategory]);
@@ -37,7 +37,7 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
-          Copyright © 2024 Ankur
+          Copyright © 2024
         </Typography>
       </Box>
 

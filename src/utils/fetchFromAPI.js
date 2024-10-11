@@ -1,15 +1,14 @@
-import axios from "axios";
+import axios from 'axios';
 
-export const BASE_URL =
-  "https://youtube-v31.p.rapidapi.com/search?part=snippet&maxResults=50";
+export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 
 const options = {
   params: {
     maxResults: 50,
   },
   headers: {
-    "x-rapidapi-key": process.env.REACT_APP_RAPID_API_KEY,
-    "x-rapidapi-host": "youtube-v31.p.rapidapi.com",
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 };
 

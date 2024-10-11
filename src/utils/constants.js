@@ -1,6 +1,5 @@
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import HomeIcon from "@mui/icons-material/Home";
-import WhatshotIcon from "@mui/icons-material/Whatshot";
 import CodeIcon from "@mui/icons-material/Code";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
@@ -13,10 +12,11 @@ import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
-export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
+export const logo =
+  "https://cdn.iconscout.com/icon/free/png-512/free-youtube-logo-icon-download-in-svg-png-gif-file-formats--video-player-play-google-suits-pack-logos-icons-93926.png?f=webp&w=256";
+
 export const categories = [
   { name: "Home", icon: <HomeIcon /> },
-  { name: "Trending", icon: <WhatshotIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
@@ -35,10 +35,10 @@ export const categories = [
 ];
 
 export const demoThumbnailUrl =
-  "https://www.freepik.com/free-photo/nutshell-boats-explore-writing-near-travel-stuff_2146810.htm#fromView=search&page=1&position=0&uuid=274ab49a-1796-425b-b54d-bf5e390321bb";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "Title";
-export const demoVideoTitle = "Video";
+  "https://cdn.iconscout.com/icon/premium/png-512-thumb/physics-3838274-3199351.png?f=webp&w=256";
+export const demoChannelUrl = "/channel/UCEBb1b_L6zDS3xTUrIALZOw";
+export const demoVideoUrl = "/video/43vuOpJY46s";
+export const demoChannelTitle = "Channel Title";
+export const demoVideoTitle = "Video Title";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
