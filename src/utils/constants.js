@@ -13,7 +13,7 @@ import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
 export const logo =
-  "https://cdn.iconscout.com/icon/free/png-512/free-youtube-logo-icon-download-in-svg-png-gif-file-formats--video-player-play-google-suits-pack-logos-icons-93926.png?f=webp&w=256";
+  "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png";
 
 export const categories = [
   { name: "Home", icon: <HomeIcon /> },
