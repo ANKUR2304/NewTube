@@ -27,6 +27,36 @@
 To run NewTube locally, follow these steps:
 
 1. Clone the repository:
-  ```bash
-   git clone https://github.com/your-username/NewTube.git
-  ```
+    ```bash
+     git clone https://github.com/your-username/NewTube.git
+    ```
+    
+2. Navigate to the project directory:
+   ```bash
+   cd NewTube
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Set up environment variables:
+   - Create a .env file in the root directory and add your ChatEngine and Firebase credentials.
+    ```
+    REACT_APP_RAPIDAPI_KEY=your-rapidapi-key
+    REACT_APP_YOUTUBE_API_URL=https://your-rapidapi-youtube-endpoint
+    ```
+
+5. Start the development server:
+    ```bash
+    npm start
+    ```
+
+6. Visit http://localhost:3000 in your browser to use PingMe.
+
+## Demo
+You can try out the live demo [here](https://newtubeapp.netlify.app/).
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request.
